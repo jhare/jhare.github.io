@@ -1,0 +1,88 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: 'Lato', serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.container div {
+  margin: 5px;
+}
+
+.toc {
+  display: flex;
+  width: 100%;
+}
+
+.toc > a {
+  min-width: 100px;
+}
+
+.toc > a:hover {
+  text-decoration: underline;
+}
+
+.blog {
+  flex: 3 1;
+}
+
+.blog > .title {
+  margin-bottom: 25px;
+}
+
+.sidebar {
+  flex: 1 3;
+  text-align: right;
+  border-left: 1px solid gray
+}
+
+.container .social {
+  margin-right: 0;
+  padding-right: 0;
+}
+
+/* font looks */
+.title {
+  font-family: 'Merriweather';
+  font-weight: 900;
+  font-size: 34px;
+  line-height: 40px;
+}
+
+.article > .title {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.article > .date {
+  margin-left: 10px;
+  font-style: italic;
+  font-size: 12px;
+}
+
+.subtitle {
+  font-family: 'Merriweather';
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.note {
+  font-size: 10px;
+  font-style: italic;
+}
+
+a, a:visited {
+  flex: 0 0 auto;
+  transition: all .25s;
+  color: #375eab;
+  text-decoration: none;
+}
