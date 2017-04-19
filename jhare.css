@@ -41,13 +41,9 @@ html, body {
 
 .sidebar {
   flex: 1 3;
-  text-align: right;
+  text-align: left;
+  padding-left: 10px;
   border-left: 1px solid gray
-}
-
-.container .social {
-  margin-right: 0;
-  padding-right: 0;
 }
 
 /* font looks */
@@ -85,4 +81,8 @@ a, a:visited {
   transition: all .25s;
   color: #375eab;
   text-decoration: none;
+}
+
+.monster {
+  font-family: "Courier", sans-serif
 }
