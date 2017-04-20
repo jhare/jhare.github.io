@@ -58,6 +58,15 @@ html, body {
   line-height: 40px;
 }
 
+.article {
+  padding: 5px;
+  border: 1px solid gray;
+}
+
+.article:hover a {
+  color: white;
+}
+
 .article > .title {
   font-weight: bold;
   font-size: 20px;
@@ -89,4 +98,8 @@ a, a:visited {
 
 .monster {
   font-family: "Courier", sans-serif
+}
+
+.signature {
+  font-style: italic;
 }
