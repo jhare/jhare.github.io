@@ -46,6 +46,14 @@ html, body {
   border-left: 1px solid gray
 }
 
+.container .section {
+    margin-bottom: 20px;
+}
+
+.section > div {
+  margin-left: 10px;
+}
+
 /* font looks */
 .title {
   font-family: 'Merriweather';
@@ -54,8 +62,12 @@ html, body {
   line-height: 40px;
 }
 
+.container .article {
+  margin-bottom: 10px;
+}
+
 .article {
-  padding: 5px;
+  padding: 10px;
   border: 1px solid gray;
   min-height: 140px;
 }
@@ -75,6 +87,7 @@ html, body {
   font-family: 'Merriweather';
   font-weight: bold;
   font-size: 20px;
+  cursor: default;
 }
 
 .note {
