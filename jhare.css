@@ -57,6 +57,7 @@ html, body {
 .article {
   padding: 5px;
   border: 1px solid gray;
+  min-height: 140px;
 }
 
 .article > .title {
