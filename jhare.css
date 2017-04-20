@@ -60,6 +60,7 @@ html, body {
   font-weight: 900;
   font-size: 34px;
   line-height: 40px;
+  cursor: default;
 }
 
 .container .article {
@@ -75,6 +76,7 @@ html, body {
 .article > .title {
   font-weight: bold;
   font-size: 20px;
+  cursor: default;
 }
 
 .article > .date {
